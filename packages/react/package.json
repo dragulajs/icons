@@ -1,0 +1,40 @@
+{
+  "name": "@dragula/icons",
+  "version": "1.0.0",
+  "description": "Abstract nodes for dragula icons.",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "es/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "generate": "esno ./scripts/generate.ts",
+    "build:clean": "esno ./scripts/buildClean.ts",
+    "build": "pnpm run build:clean && redbud build && esno ./scripts/build.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragulajs/icons.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dragulajs/icons/issues"
+  },
+  "homepage": "https://sen-icons.xingkang.wang",
+  "authors": [
+    "wangxingkang <wang_xingkang@qq.com> (https://github.com/wangxingkang)"
+  ],
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
+  },
+  "dependencies": {
+    "@ant-design/colors": "^6.0.0",
+    "@babel/runtime": "^7.11.2",
+    "@pansy/classnames": "^1.0.1",
+    "@sensoro-design/icons-svg": "1.69.0",
+    "rc-util": "^5.19.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
