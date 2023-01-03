@@ -1,4 +1,4 @@
-<h1 align="center">Sensoro Design Icons</h1>
+<h1 align="center">Dragula Icons</h1>
 
 <div align="center">
 
@@ -24,23 +24,23 @@
 # npm install
 
 # 核心库
-npm install @sensoro-design/icons-svg --save
+npm install @dragula/icons-svg --save
 # React
-npm install @sensoro-design/icons --save
+npm install @dragula/icons --save
 
 # yarn install
 
 # 核心库
-npm add @sensoro-design/icons-svg
+npm add @dragula/icons-svg
 # React
-npm add @sensoro-design/icons
+npm add @dragula/icons
 
 # pnpm install
 
 # 核心库
-pnpm i @sensoro-design/icons-svg
+pnpm i @dragula/icons-svg
 # React
-pnpm i @sensoro-design/icons
+pnpm i @dragula/icons
 ```
 
 ## 🤝 参与共建
@@ -48,14 +48,14 @@ pnpm i @sensoro-design/icons
 本仓库使用 [pnpm](https://pnpm.io/zh) 进行依赖管理，开发前请保证已安装
 
 ```sh
-$ git clone git@github.com:sensoro-design/sensoro-design-icons.git
-$ cd sensoro-design-icons
+$ git clone git@github.com:dragulajs/icons.git
+$ cd icons
 $ pnpm generate
 $ pnpm build
 $ pnpm start
 ```
 
-[npm-image]: https://img.shields.io/npm/v/@sensoro-design/icons.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/@sensoro-design/icons
-[download-image]: https://img.shields.io/npm/dm/@sensoro-design/icons.svg?style=flat-square
-[download-url]: https://npmjs.org/package/@sensoro-design/icons
+[npm-image]: https://img.shields.io/npm/v/@dragula/icons.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@dragula/icons
+[download-image]: https://img.shields.io/npm/dm/@dragula/icons.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@dragula/icons
